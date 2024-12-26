@@ -8,16 +8,17 @@ Sab's Music Player is a comprehensive music application built with Python. It fe
 ## Table of Contents
 
 1. [Overview](#overview)  
-2. [Features](#features)  
-3. [Panels](#panels)  
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Panels](#panels)  
    - [Login & Registration Panel](#1-login--registration-panel)
    - [Main Panel](#2-main-panel)
    - [Favorites](#3-favorites)
-   - [Album Cover Display](#4-album-cover-display)  
-4. [Database Structure](#database-structure)  
-5. [Setup and Installation](#setup-and-installation)  
-6. [Future Improvements](#future-improvements)
-7. [Contributing](#contributing)
+   - [Album Cover Display](#4-album-cover-display)
+5. [Database Structure](#database-structure)  
+6. [Setup and Installation](#setup-and-installation)  
+7. [Future Enhancements](#future-enhancements)
+8. [Contributing](#contributing)
 
 ---
 
@@ -38,6 +39,16 @@ Sab's Music Player is designed to provide a smooth experience for managing and p
 
 ---
 
+## Technologies Used
+
+- **Python**
+- **Tkinter**: GUI development.
+- **Pygame**: Music playback.
+- **SQLite3**: Database integration.
+- **Pillow**: Image handling for album covers.
+
+---
+
 ## Panels
 
 ### 1. **Login & Registration Panel**
@@ -52,8 +63,6 @@ Sab's Music Player is designed to provide a smooth experience for managing and p
 ![image](https://github.com/user-attachments/assets/415c622c-69f5-4e91-9b6f-19db2942dedd)
 
 
-
----
 
 ### 2. **Main Panel**
 
@@ -73,7 +82,6 @@ Sab's Music Player is designed to provide a smooth experience for managing and p
 ![image](https://github.com/user-attachments/assets/ae613f48-d0d9-4c8b-84b0-822d0fa28a59)
 
 
----
 
 ### 3. **Favorites**
 
@@ -87,7 +95,6 @@ _Here is UserID = 1's favorite songs:_
 ![image](https://github.com/user-attachments/assets/91936a0a-fe89-4386-a759-1eea288188fb)
 
 
----
 
 ### 4. **Album Cover Display**
 
@@ -96,8 +103,12 @@ _Here is UserID = 1's favorite songs:_
   - The album cover from the song's folder (`cover.jpg`).
   - A default image if no album cover is found.
   
+---
 
 ## Database Structure
+
+I used SQLite3 for database integration. Here is my tables:
+
 ![image](https://github.com/user-attachments/assets/3f161871-294f-45df-b038-6539a5fef122)
 
 - **Users Table**:
@@ -132,11 +143,15 @@ cd music-player
 pip install pygame pillow
 ```
 
-## Future Improvements
+---
+
+## Future Enhancements
 - Add advanced playlist management features.
-- Improve the UI with modern themes.
+- Improve UI/UX with a modern framework like PyQt5.
 - Expand the database functionality for better analytics.
+- Integrate with online music libraries or APIs (e.g., Spotify API).
+
+---
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
