@@ -143,6 +143,8 @@ cd music-player
 pip install pygame pillow
 ```
 
+**Note:** You need to login first to run the app. So firstly, you need to run login.py and login with a user information that exists in the database. Although, you can register with the "Register from here" button on the panel. And then, you'll be directed to the main app.
+
 ---
 
 ## Future Enhancements
