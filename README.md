@@ -1,4 +1,4 @@
-# ![sabs-music-player-high-resolution-logo-transparent](https://github.com/user-attachments/assets/fde8bd53-63a5-4b96-bef6-def0d292692f)
+# ![Screenshot_3](https://github.com/user-attachments/assets/0a86998e-0aeb-4ea7-8de7-7821772f3513)
 
 
 Sab's Music Player is a comprehensive music application built with Python. It features a user-friendly interface for managing playlists, favorites, and albums, along with seamless playback functionality. This app leverages Tkinter for the UI and SQLite for database management, offering a robust solution for music lovers.
